@@ -1,0 +1,6 @@
+macro_cluster,countries,avg_gdp_per_capita,avg_life_expectancy,avg_internet_users_pct,avg_urban_population_pct,avg_unemployment_pct,avg_electricity_access_pct,avg_co2_tons_per_capita_2018,example_country_codes
+0,30,3330.39,70.63,62.64,44.86,3.53,93.4,1.31,"BGD, BTN, KHM, CMR, COM, CIV, EGY, SLV"
+1,48,48001.65,81.01,93.89,81.07,4.89,99.97,9.75,"ARG, AUS, AUT, BHS, BHR, BEL, BRN, CAN"
+2,27,1090.34,63.29,25.94,36.77,4.34,43.29,0.26,"AFG, BEN, BFA, BDI, CAF, TCD, COD, ETH"
+3,18,4056.63,66.81,54.36,61.32,18.69,71.32,2.08,"AGO, BWA, COG, DJI, GNQ, SWZ, GAB, HTI"
+4,48,11582.74,76.02,83.98,66.81,7.72,99.66,3.62,"ALB, DZA, ARM, AZE, BRB, BLR, BLZ, BOL"

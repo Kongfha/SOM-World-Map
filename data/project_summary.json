@@ -1,0 +1,82 @@
+{
+  "countries_total": 217,
+  "countries_complete": 171,
+  "features": 7,
+  "som_grid": "9x10",
+  "quantization_error": 0.687,
+  "topographic_error": 0.018,
+  "thailand_neighbors": [
+    {
+      "country_code": "THA",
+      "country_name": "Thailand",
+      "feature_distance": 0.0,
+      "som_grid_distance": 0
+    },
+    {
+      "country_code": "ECU",
+      "country_name": "Ecuador",
+      "feature_distance": 0.834,
+      "som_grid_distance": 1
+    },
+    {
+      "country_code": "JAM",
+      "country_name": "Jamaica",
+      "feature_distance": 0.853,
+      "som_grid_distance": 1
+    },
+    {
+      "country_code": "AZE",
+      "country_name": "Azerbaijan",
+      "feature_distance": 0.93,
+      "som_grid_distance": 2
+    },
+    {
+      "country_code": "MEX",
+      "country_name": "Mexico",
+      "feature_distance": 1.075,
+      "som_grid_distance": 2
+    },
+    {
+      "country_code": "CHN",
+      "country_name": "China",
+      "feature_distance": 1.107,
+      "som_grid_distance": 2
+    },
+    {
+      "country_code": "DOM",
+      "country_name": "Dominican Republic",
+      "feature_distance": 1.128,
+      "som_grid_distance": 2
+    },
+    {
+      "country_code": "BLR",
+      "country_name": "Belarus",
+      "feature_distance": 1.148,
+      "som_grid_distance": 1
+    },
+    {
+      "country_code": "HUN",
+      "country_name": "Hungary",
+      "feature_distance": 1.151,
+      "som_grid_distance": 2
+    },
+    {
+      "country_code": "UZB",
+      "country_name": "Uzbekistan",
+      "feature_distance": 1.163,
+      "som_grid_distance": 2
+    },
+    {
+      "country_code": "ROU",
+      "country_name": "Romania",
+      "feature_distance": 1.17,
+      "som_grid_distance": 3
+    },
+    {
+      "country_code": "CUB",
+      "country_name": "Cuba",
+      "feature_distance": 1.205,
+      "som_grid_distance": 3
+    }
+  ]
+}

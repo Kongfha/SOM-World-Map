@@ -1,0 +1,3532 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 20000,
+    "total": 220,
+    "sourceid": "87",
+    "lastupdated": "2022-10-07"
+  },
+  [
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "COK",
+        "value": "Cook Islands"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.09,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "NIU",
+        "value": "Niue"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.01,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "AFG",
+        "value": "Afghanistan"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 7.44,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "ALB",
+        "value": "Albania"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 5.56,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "DZA",
+        "value": "Algeria"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 151.67,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "ASM",
+        "value": "American Samoa"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "AND",
+        "value": "Andorra"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.46,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "AGO",
+        "value": "Angola"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 27.34,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "ATG",
+        "value": "Antigua and Barbuda"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.53,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "ARG",
+        "value": "Argentina"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 177.41,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "ARM",
+        "value": "Armenia"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 5.55,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "ABW",
+        "value": "Aruba"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "AUS",
+        "value": "Australia"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 386.62,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "AUT",
+        "value": "Austria"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 63.18,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "AZE",
+        "value": "Azerbaijan"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 32.02,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "BHS",
+        "value": "Bahamas, The"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 2.26,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "BHR",
+        "value": "Bahrain"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 30.75,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "BGD",
+        "value": "Bangladesh"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 82.76,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "BRB",
+        "value": "Barbados"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 1.25,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "BLR",
+        "value": "Belarus"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 59.31,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "BEL",
+        "value": "Belgium"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 93.47,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "BLZ",
+        "value": "Belize"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.68,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "BEN",
+        "value": "Benin"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 7.91,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "BMU",
+        "value": "Bermuda"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "BTN",
+        "value": "Bhutan"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 1.38,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "BOL",
+        "value": "Bolivia"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 22.71,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "BIH",
+        "value": "Bosnia and Herzegovina"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 22.54,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "BWA",
+        "value": "Botswana"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 8.21,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "BRA",
+        "value": "Brazil"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 427.71,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "VGB",
+        "value": "British Virgin Islands"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "BRN",
+        "value": "Brunei Darussalam"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 7.14,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "BGR",
+        "value": "Bulgaria"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 41.13,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "BFA",
+        "value": "Burkina Faso"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 4.27,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "BDI",
+        "value": "Burundi"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.59,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "CPV",
+        "value": "Cabo Verde"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.62,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "KHM",
+        "value": "Cambodia"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 11.16,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "CMR",
+        "value": "Cameroon"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 8.62,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "CAN",
+        "value": "Canada"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 574.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "CYM",
+        "value": "Cayman Islands"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "CAF",
+        "value": "Central African Republic"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.33,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "TCD",
+        "value": "Chad"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 1.07,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "CHI",
+        "value": "Channel Islands"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "CHL",
+        "value": "Chile"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 86.62,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "CHN",
+        "value": "China"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 10313.46,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "COL",
+        "value": "Colombia"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 79.49,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "COM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.26,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "COD",
+        "value": "Congo, Dem. Rep."
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 2.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "COG",
+        "value": "Congo, Rep."
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 3.22,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "CRI",
+        "value": "Costa Rica"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 8.26,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "CIV",
+        "value": "Cote d'Ivoire"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 9.91,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "HRV",
+        "value": "Croatia"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 16.58,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "CUB",
+        "value": "Cuba"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 24.97,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "CUW",
+        "value": "Curacao"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "CYP",
+        "value": "Cyprus"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 7.23,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "CZE",
+        "value": "Czech Republic"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 102.48,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "DNK",
+        "value": "Denmark"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 33.38,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "DJI",
+        "value": "Djibouti"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.49,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "DMA",
+        "value": "Dominica"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.18,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "DOM",
+        "value": "Dominican Republic"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 25.12,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "ECU",
+        "value": "Ecuador"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 39.53,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "EGY",
+        "value": "Egypt, Arab Rep."
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 246.26,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "SLV",
+        "value": "El Salvador"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 6.81,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "GNQ",
+        "value": "Equatorial Guinea"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 6.67,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "ERI",
+        "value": "Eritrea"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "EST",
+        "value": "Estonia"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 16,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "SWZ",
+        "value": "Eswatini"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 1.09,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "ETH",
+        "value": "Ethiopia"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 16.28,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "FRO",
+        "value": "Faroe Islands"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "FJI",
+        "value": "Fiji"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 1.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "FIN",
+        "value": "Finland"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 44.36,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "FRA",
+        "value": "France"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 309.96,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "PYF",
+        "value": "French Polynesia"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "GAB",
+        "value": "Gabon"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 4.61,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "GMB",
+        "value": "Gambia, The"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.57,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "GEO",
+        "value": "Georgia"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 9.46,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "DEU",
+        "value": "Germany"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 709.54,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "GHA",
+        "value": "Ghana"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 16.11,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "GIB",
+        "value": "Gibraltar"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "GRC",
+        "value": "Greece"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 65.29,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "GRL",
+        "value": "Greenland"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "GRD",
+        "value": "Grenada"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "GUM",
+        "value": "Guam"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "GTM",
+        "value": "Guatemala"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 18.21,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "GIN",
+        "value": "Guinea"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 3.12,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "GNB",
+        "value": "Guinea-Bissau"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.31,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "GUY",
+        "value": "Guyana"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 2.44,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "HTI",
+        "value": "Haiti"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 3.33,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "HND",
+        "value": "Honduras"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 9.77,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "HKG",
+        "value": "Hong Kong SAR, China"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "HUN",
+        "value": "Hungary"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 46.39,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "ISL",
+        "value": "Iceland"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 2.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "IND",
+        "value": "India"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 2434.52,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "IDN",
+        "value": "Indonesia"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 583.11,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "IRN",
+        "value": "Iran, Islamic Rep."
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 629.29,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "IRQ",
+        "value": "Iraq"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 188.14,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "IRL",
+        "value": "Ireland"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 37.11,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "IMN",
+        "value": "Isle of Man"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "ISR",
+        "value": "Israel"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 61.97,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "ITA",
+        "value": "Italy"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 324.85,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "JAM",
+        "value": "Jamaica"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 8.51,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "JPN",
+        "value": "Japan"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 1106.15,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "JOR",
+        "value": "Jordan"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 24.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "KAZ",
+        "value": "Kazakhstan"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 220.45,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "KEN",
+        "value": "Kenya"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 18.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "KIR",
+        "value": "Kiribati"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.08,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "PRK",
+        "value": "Korea, Dem. People's Rep."
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 18.12,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "KOR",
+        "value": "Korea, Rep."
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 630.87,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "XKX",
+        "value": "Kosovo"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "KWT",
+        "value": "Kuwait"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 89.46,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "KGZ",
+        "value": "Kyrgyz Republic"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 11,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "LAO",
+        "value": "Lao PDR"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 18.79,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "LVA",
+        "value": "Latvia"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 7.63,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "LBN",
+        "value": "Lebanon"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 27.71,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "LSO",
+        "value": "Lesotho"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 2.57,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "LBR",
+        "value": "Liberia"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 1.32,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "LBY",
+        "value": "Libya"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 58.94,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "LIE",
+        "value": "Liechtenstein"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.14,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "LTU",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 11.59,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "LUX",
+        "value": "Luxembourg"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 9.32,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "MAC",
+        "value": "Macao SAR, China"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "MDG",
+        "value": "Madagascar"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 3.37,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "MWI",
+        "value": "Malawi"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 1.57,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "MYS",
+        "value": "Malaysia"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 239.62,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "MDV",
+        "value": "Maldives"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 1.91,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "MLI",
+        "value": "Mali"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 5.62,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "MLT",
+        "value": "Malta"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 1.55,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "MHL",
+        "value": "Marshall Islands"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.19,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "MRT",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "MUS",
+        "value": "Mauritius"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 4.13,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "MEX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 472.14,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "FSM",
+        "value": "Micronesia, Fed. Sts."
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.18,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "MDA",
+        "value": "Moldova"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 8.59,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "MCO",
+        "value": "Monaco"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "MNG",
+        "value": "Mongolia"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 21.32,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "MNE",
+        "value": "Montenegro"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 2.52,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "MAR",
+        "value": "Morocco"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 66.68,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "MOZ",
+        "value": "Mozambique"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 6.64,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "MMR",
+        "value": "Myanmar"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 32.52,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "NAM",
+        "value": "Namibia"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 4.25,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "NRU",
+        "value": "Nauru"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.07,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "NPL",
+        "value": "Nepal"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 12.03,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "NLD",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 151.17,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "NCL",
+        "value": "New Caledonia"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "NZL",
+        "value": "New Zealand"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 32.21,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "NIC",
+        "value": "Nicaragua"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 5.21,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "NER",
+        "value": "Niger"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 2.29,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "NGA",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 130.67,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "MKD",
+        "value": "North Macedonia"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 7.37,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "MNP",
+        "value": "Northern Mariana Islands"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "NOR",
+        "value": "Norway"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 37.35,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "OMN",
+        "value": "Oman"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 73.37,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "PAK",
+        "value": "Pakistan"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 208.37,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "PLW",
+        "value": "Palau"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.29,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "PAN",
+        "value": "Panama"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 10.14,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "PNG",
+        "value": "Papua New Guinea"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 7.46,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "PRY",
+        "value": "Paraguay"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 8.42,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "PER",
+        "value": "Peru"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 54.28,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "PHL",
+        "value": "Philippines"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 142.24,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "POL",
+        "value": "Poland"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 312.74,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "PRT",
+        "value": "Portugal"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 49.78,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "PRI",
+        "value": "Puerto Rico"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "QAT",
+        "value": "Qatar"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 90.17,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "ROU",
+        "value": "Romania"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 74.88,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "RUS",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 1607.55,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "RWA",
+        "value": "Rwanda"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 1.08,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "WSM",
+        "value": "Samoa"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.32,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "SMR",
+        "value": "San Marino"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "STP",
+        "value": "Sao Tome and Principe"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.14,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "SAU",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 514.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "SEN",
+        "value": "Senegal"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 9.86,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "SRB",
+        "value": "Serbia"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 45.54,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "SYC",
+        "value": "Seychelles"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.62,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "SLE",
+        "value": "Sierra Leone"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 1.02,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "SGP",
+        "value": "Singapore"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 47.36,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "SXM",
+        "value": "Sint Maarten (Dutch part)"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "SVK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 33,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "SVN",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 14.05,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "SLB",
+        "value": "Solomon Islands"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.37,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "SOM",
+        "value": "Somalia"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.69,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "ZAF",
+        "value": "South Africa"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 433.25,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "SSD",
+        "value": "South Sudan"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 1.38,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "ESP",
+        "value": "Spain"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 258.34,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "LKA",
+        "value": "Sri Lanka"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 21.63,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "KNA",
+        "value": "St. Kitts and Nevis"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.26,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "LCA",
+        "value": "St. Lucia"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.39,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "MAF",
+        "value": "St. Martin (French part)"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "VCT",
+        "value": "St. Vincent and the Grenadines"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.28,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "SDN",
+        "value": "Sudan"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 20.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "SUR",
+        "value": "Suriname"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 2.08,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "SWE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 36,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "CHE",
+        "value": "Switzerland"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 37.48,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "SYR",
+        "value": "Syrian Arab Republic"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 27.91,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "TWN",
+        "value": "Taiwan, China"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "TJK",
+        "value": "Tajikistan"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 7.33,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "TZA",
+        "value": "Tanzania"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 11.58,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "THA",
+        "value": "Thailand"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 257.86,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "TLS",
+        "value": "Timor-Leste"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.64,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "TGO",
+        "value": "Togo"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 2.26,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "TON",
+        "value": "Tonga"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.19,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "TTO",
+        "value": "Trinidad and Tobago"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 17.76,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "TUN",
+        "value": "Tunisia"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 29.98,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "TUR",
+        "value": "Turkiye"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 412.97,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "TKM",
+        "value": "Turkmenistan"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 71.73,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "TCA",
+        "value": "Turks and Caicos Islands"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "TUV",
+        "value": "Tuvalu"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.01,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "UGA",
+        "value": "Uganda"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 6.13,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "UKR",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 185.37,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "ARE",
+        "value": "United Arab Emirates"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 200.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "GBR",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 358.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "USA",
+        "value": "United States"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 4981.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "URY",
+        "value": "Uruguay"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 6.52,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "UZB",
+        "value": "Uzbekistan"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 112.09,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "VUT",
+        "value": "Vanuatu"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 0.18,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "VEN",
+        "value": "Venezuela, RB"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 138.16,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "VNM",
+        "value": "Vietnam"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 257.86,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "VIR",
+        "value": "Virgin Islands (U.S.)"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "PSE",
+        "value": "West Bank and Gaza"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "YEM",
+        "value": "Yemen, Rep."
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 9.31,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "ZMB",
+        "value": "Zambia"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 7.74,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "CC.CO2.EMSE.EL",
+        "value": "CO2 emissions by sector (Mt CO2 eq) - Total excluding LUCF"
+      },
+      "country": {
+        "id": "ZWE",
+        "value": "Zimbabwe"
+      },
+      "countryiso3code": "",
+      "date": "2018",
+      "value": 12.27,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    }
+  ]
+]
