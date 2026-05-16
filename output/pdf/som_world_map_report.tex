@@ -1,0 +1,421 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[margin=0.85in]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{longtable}
+\usepackage{fancyhdr}
+
+\definecolor{accent}{HTML}{1F5A7A}
+\definecolor{muted}{HTML}{5C6670}
+\definecolor{lightgray}{HTML}{F3F5F7}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=accent,
+  urlcolor=accent,
+  citecolor=accent
+}
+
+\pagestyle{fancy}
+\setlength{\headheight}{14pt}
+\fancyhf{}
+\lhead{\textcolor{muted}{SOM World Map}}
+\rhead{\textcolor{muted}{Project Report}}
+\cfoot{\thepage}
+
+\setlength{\parskip}{0.55em}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=1.35em, topsep=0.2em, itemsep=0.15em}
+\setlist[enumerate]{leftmargin=1.35em, topsep=0.2em, itemsep=0.15em}
+
+\newcommand{\figpath}{../../figures}
+\newcommand{\datapath}{../../data}
+\newcommand{\codepath}{../../src}
+
+\title{
+  \vspace{-1.0cm}
+  \textbf{\Huge SOM World Map}\\
+  \vspace{0.25cm}
+  \Large Country Similarity, Temporal Trajectories, and SOM-Based Classification
+}
+\author{Neural Networks Final Project}
+\date{May 2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This report summarizes a Self-Organizing Map (SOM) project built on World Bank country indicators. The project began as a static country similarity map and was extended into a temporal country-year SOM and a SOM-based majority-vote classifier. The central idea is to convert multidimensional national development profiles into an interpretable two-dimensional similarity landscape. The final workflow includes data collection, feature engineering, static SOM visualization, dynamic 2014-2023 trajectory analysis, Thailand-focused neighbor drift, time-shifted similarity, and a held-out income-level classification experiment that uses SOM nodes directly as class decision regions.
+\end{abstract}
+
+\setcounter{tocdepth}{1}
+\tableofcontents
+\newpage
+
+\section{Executive Summary}
+
+The project answers a simple question: if each country is represented by multiple development indicators, which countries are similar, and how does that similarity change over time? A SOM is a useful model for this question because it preserves neighborhood structure while reducing high-dimensional feature vectors to a two-dimensional grid.
+
+The final project contains three analytical layers:
+
+\begin{enumerate}
+  \item \textbf{Static SOM:} a one-time country similarity map using the latest available World Bank indicators plus 2018 CO2 per capita.
+  \item \textbf{Dynamic SOM:} a 2014-2023 country-year SOM that shows how countries move across a development-profile landscape over time.
+  \item \textbf{SOM classifier:} a 4-node SOM majority-vote classifier for World Bank income level, evaluated on 15 held-out countries.
+\end{enumerate}
+
+\begin{table}[H]
+\centering
+\caption{Main project results.}
+\begin{tabular}{ll}
+\toprule
+\textbf{Component} & \textbf{Result} \\
+\midrule
+Static country metadata & 217 countries \\
+Static SOM complete cases & 171 countries \\
+Static SOM grid & 9 x 10 \\
+Static quantization error & 0.687 \\
+Static topographic error & 0.018 \\
+Dynamic country-year rows & 2,170 rows \\
+Dynamic complete country-year rows & 1,733 rows \\
+Countries complete for all 10 dynamic years & 158 countries \\
+Dynamic SOM grid & 10 x 12 \\
+Dynamic quantization error & 0.620 \\
+Dynamic topographic error & 0.033 \\
+SOM classifier split & 154 train countries, 15 test countries \\
+SOM classifier accuracy & 0.800 \\
+SOM classifier macro F1 & 0.774 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Data Sources and Feature Design}
+
+The data source is the World Bank Indicators API. The static pipeline uses the latest available values from the 2018-2024 API window, then computes 2018 CO2 tons per capita from total CO2 emissions and population.
+
+\subsection{Static SOM Features}
+
+The static SOM uses seven features:
+
+\begin{itemize}
+  \item GDP per capita
+  \item Life expectancy
+  \item Internet users as a percentage of population
+  \item Urban population as a percentage of total population
+  \item Unemployment as a percentage of labor force
+  \item Access to electricity as a percentage of population
+  \item CO2 tons per capita in 2018
+\end{itemize}
+
+GDP and CO2 are log-transformed before scaling because their raw distributions are highly skewed. All model features are standardized before SOM training.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.93\textwidth]{\figpath/feature_distributions.png}
+\caption{Feature distributions after the log transformations used in the static SOM pipeline.}
+\end{figure}
+
+\subsection{Dynamic SOM Features}
+
+The dynamic SOM uses country-year rows from 2014 through 2023. It trains on six high-coverage features:
+
+\begin{itemize}
+  \item GDP per capita
+  \item Life expectancy
+  \item Internet users as a percentage of population
+  \item Urban population as a percentage of total population
+  \item Unemployment as a percentage of labor force
+  \item Access to electricity as a percentage of population
+\end{itemize}
+
+CO2 is still downloaded into the full country-year table where available, but it is not used as a 10-year SOM feature because the current endpoint does not provide complete recent coverage after 2018. This keeps the temporal SOM interpretable and avoids aggressive imputation.
+
+\section{Static Country Similarity SOM}
+
+The static SOM maps 171 complete country profiles onto a 9 x 10 grid. Countries with similar standardized feature vectors land near each other, even if they are geographically far apart.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.86\textwidth]{\figpath/som_u_matrix_country_map.png}
+\caption{Static SOM U-Matrix. Darker and lighter regions show changes in average neighbor distance across the SOM grid, while countries are placed at their best-matching units.}
+\end{figure}
+
+The U-Matrix gives a similarity landscape: dense regions indicate countries with comparable profiles, while high-distance boundaries suggest sharper transitions between profile groups.
+
+\subsection{Feature Interpretation with Component Planes}
+
+Component planes show how each standardized feature is distributed across the SOM grid. They make the model interpretable because each location on the grid can be read as a profile archetype.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.93\textwidth]{\figpath/som_component_planes.png}
+\caption{Static SOM component planes. Each panel shows the standardized SOM weight for one transformed feature.}
+\end{figure}
+
+\subsection{Macro Clusters}
+
+To make the SOM easier to explain, K-Means is applied to SOM node weights and used to create five macro clusters. This is not a replacement for the SOM; it is a reporting layer on top of the continuous SOM landscape.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.86\textwidth]{\figpath/som_macro_clusters.png}
+\caption{Macro clusters overlaid on the static SOM grid.}
+\end{figure}
+
+\subsection{Thailand Similarity Case Study}
+
+Thailand is used as a case study for nearest-neighbor interpretation. The static feature-space nearest countries to Thailand include Ecuador, Jamaica, Azerbaijan, Mexico, China, Dominican Republic, Belarus, Hungary, Uzbekistan, and Romania.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.90\textwidth]{\figpath/similar_countries_THA.png}
+\caption{Countries most similar to Thailand in scaled static feature space.}
+\end{figure}
+
+\section{Dynamic Country-Year SOM}
+
+The dynamic extension changes the unit of analysis from a country to a country-year. A country such as Thailand becomes a sequence of points: Thailand 2014, Thailand 2015, and so on through Thailand 2023.
+
+This allows the project to answer a stronger question: not only which countries are similar at one point in time, but also how national development profiles move across the similarity landscape.
+
+\begin{table}[H]
+\centering
+\caption{Dynamic SOM data coverage.}
+\begin{tabular}{lr}
+\toprule
+\textbf{Metric} & \textbf{Value} \\
+\midrule
+Year range & 2014-2023 \\
+Total countries & 217 \\
+Total country-year rows & 2,170 \\
+Complete country-year rows for six core features & 1,733 \\
+Countries with complete data for all 10 years & 158 \\
+Countries represented in dynamic SOM model rows & 184 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Dynamic SOM Snapshots}
+
+The dynamic SOM is trained on all complete country-year rows together. The following snapshots show how the distribution of country-year profiles changes over selected years.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.96\textwidth]{\figpath/dynamic_som_year_snapshots.png}
+\caption{Dynamic SOM snapshots for selected years. Each point is a country-year observation.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.94\textwidth]{\figpath/dynamic_som_component_planes.png}
+\caption{Dynamic SOM component planes for the six time-series features.}
+\end{figure}
+
+\subsection{Geographic View of Dynamic Clusters}
+
+The dynamic SOM clusters can also be displayed on a geographic scatter plot. This view is not a replacement for a formal map, but it gives a quick visual check of how SOM profile clusters are distributed across the world.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.96\textwidth]{\figpath/dynamic_world_cluster_scatter.png}
+\caption{Geographic scatter of dynamic SOM macro clusters.}
+\end{figure}
+
+\subsection{Thailand Trajectory}
+
+Thailand has complete dynamic data for all years from 2014 through 2023. Its trajectory shows how the country moves through the SOM similarity landscape as the underlying feature profile changes.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.72\textwidth]{\figpath/dynamic_som_trajectory_THA.png}
+\caption{Thailand trajectory across the dynamic SOM grid from 2014 to 2023.}
+\end{figure}
+
+The trajectory shows a movement from the 2014-2017 region into a later position after 2018. The feature changes behind this movement include rising internet adoption and urbanization, while GDP and unemployment fluctuate across the pandemic period.
+
+\subsection{Neighbor Drift}
+
+Neighbor drift records the closest country to Thailand for each year in standardized feature space. The closest peer changes over time:
+
+\begin{table}[H]
+\centering
+\caption{Thailand's nearest dynamic peer by year.}
+\begin{tabular}{rlll}
+\toprule
+\textbf{Year} & \textbf{Nearest peer} & \textbf{Country code} & \textbf{Distance} \\
+\midrule
+2014 & Viet Nam & VNM & 0.946 \\
+2015 & Ecuador & ECU & 0.944 \\
+2016 & China & CHN & 0.876 \\
+2017 & Ecuador & ECU & 0.812 \\
+2018 & Ecuador & ECU & 0.608 \\
+2019 & Ecuador & ECU & 0.680 \\
+2020 & Poland & POL & 0.724 \\
+2021 & Poland & POL & 0.814 \\
+2022 & Jamaica & JAM & 0.722 \\
+2023 & Jamaica & JAM & 0.743 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.86\textwidth]{\figpath/neighbor_drift_THA.png}
+\caption{Distance from Thailand to its closest country-year peer by year. Labels show the nearest peer country code.}
+\end{figure}
+
+\subsection{Movement Scores}
+
+Movement score is calculated as cumulative step length in standardized feature space over the observed time window. For reporting, complete-window countries are prioritized so that partial-window outliers do not dominate the narrative.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.86\textwidth]{\figpath/country_movement_scores.png}
+\caption{Countries with the largest complete-window 2014-2023 profile movement.}
+\end{figure}
+
+\subsection{Time-Shifted Similarity}
+
+Time-shifted similarity compares Thailand in 2023 to every other country-year in the dynamic dataset. This supports a stronger interpretation than ordinary nearest-neighbor search because it can identify historical country profiles similar to Thailand's current profile.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.86\textwidth]{\figpath/time_shifted_similarity_THA_2023.png}
+\caption{Most similar country-years to Thailand in 2023.}
+\end{figure}
+
+\section{SOM-Based Classification Add-On}
+
+The project also includes a supervised validation layer, but the classifier is still SOM-based. The goal is not to train a separate black-box classifier. Instead, the SOM itself is used as the classification surface.
+
+\subsection{Classification Task}
+
+The target label is World Bank income level:
+
+\begin{itemize}
+  \item Low income
+  \item Lower middle income
+  \item Upper middle income
+  \item High income
+\end{itemize}
+
+Countries labeled ``Not classified'' are removed. The classifier uses the same static feature set as the static SOM. The train-test split contains 154 training countries and 15 held-out test countries.
+
+\subsection{Method}
+
+The classifier uses a 4-node SOM, matching the four income classes. After training on the train set, each SOM node is assigned the majority income class among the training countries mapped to that node. A held-out test country is classified by finding its best-matching SOM node and using that node's majority label.
+
+This design keeps the method aligned with the project theme: classification is interpreted through the SOM grid itself.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.74\textwidth]{\figpath/som_income_classifier_map.png}
+\caption{SOM majority-vote income classifier. Background node colors show majority class labels from the train set. Test countries are overlaid on their best-matching nodes.}
+\end{figure}
+
+\subsection{Classifier Results}
+
+The SOM classifier achieved 0.800 accuracy and 0.774 macro F1 on 15 held-out countries.
+
+\begin{table}[H]
+\centering
+\caption{SOM income classifier test predictions.}
+\begin{tabular}{llll}
+\toprule
+\textbf{Country} & \textbf{Actual} & \textbf{Predicted} & \textbf{Correct} \\
+\midrule
+GNB & Low & Low & Yes \\
+PER & Upper middle & Upper middle & Yes \\
+PNG & Lower middle & Low & No \\
+MWI & Low & Low & Yes \\
+SLB & Lower middle & Low & No \\
+ISR & High & High & Yes \\
+DJI & Lower middle & Lower middle & Yes \\
+SWE & High & High & Yes \\
+MUS & Upper middle & Lower middle & No \\
+IRQ & Upper middle & Upper middle & Yes \\
+POL & High & High & Yes \\
+NOR & High & High & Yes \\
+CZE & High & High & Yes \\
+IRN & Upper middle & Upper middle & Yes \\
+VNM & Lower middle & Lower middle & Yes \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.72\textwidth]{\figpath/som_income_classifier_confusion_matrix.png}
+\caption{Confusion matrix for the SOM income classifier.}
+\end{figure}
+
+\section{Repository Outputs}
+
+The main reproducible scripts are:
+
+\begin{itemize}
+  \item \texttt{src/som\_world\_map\_pipeline.py}: static SOM data, model outputs, and figures.
+  \item \texttt{src/dynamic\_som\_pipeline.py}: 2014-2023 dynamic country-year SOM.
+  \item \texttt{src/som\_income\_classifier.py}: SOM majority-vote income classifier.
+\end{itemize}
+
+\begin{longtable}{p{0.36\textwidth}p{0.54\textwidth}}
+\caption{Key generated artifacts.}\\
+\toprule
+\textbf{Artifact} & \textbf{Purpose} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Artifact} & \textbf{Purpose} \\
+\midrule
+\endhead
+\path{data/country_som_results.csv} & Static SOM country positions and macro clusters. \\
+\path{data/thailand_similar_countries.csv} & Static nearest-neighbor table for Thailand. \\
+\path{data/country_year_som_results.csv} & Dynamic country-year SOM positions. \\
+\path{data/neighbor_drift_THA.csv} & Thailand nearest peers by year. \\
+\path{data/movement_scores.csv} & Country profile movement scores over time. \\
+\path{data/time_shifted_similarity_THA_2023.csv} & Country-years most similar to Thailand in 2023. \\
+\path{data/som_income_classifier_metrics.json} & SOM classifier metrics and test predictions. \\
+\path{figures/som_u_matrix_country_map.png} & Static SOM U-Matrix visualization. \\
+\path{figures/dynamic_som_trajectory_THA.png} & Thailand dynamic SOM trajectory. \\
+\path{figures/som_income_classifier_map.png} & SOM majority-vote classification map. \\
+\bottomrule
+\end{longtable}
+
+\section{Limitations}
+
+\begin{itemize}
+  \item The SOM is an exploratory model. It reveals similarity structure but does not prove causality.
+  \item Feature selection strongly affects the map. Countries are similar only with respect to the selected indicators.
+  \item Static CO2 per capita is computed for 2018 because the current World Bank endpoint does not provide complete recent coverage.
+  \item The dynamic SOM uses complete cases for six core features. This avoids hidden imputation assumptions but reduces the number of usable country-year rows.
+  \item World Bank income level is a useful classification target, but the classifier should be interpreted as a development-profile validation experiment, not a production income classifier.
+  \item The SOM classifier uses only 15 held-out test countries, so the accuracy should be presented as a small validation result rather than a definitive benchmark.
+\end{itemize}
+
+\section{Recommended Next Steps}
+
+The project is now strong enough to present as a prototype with three connected layers: static similarity, temporal movement, and SOM-based classification. The next improvements should focus on polish rather than adding unnecessary model complexity.
+
+\begin{enumerate}
+  \item Build a simple Streamlit dashboard with tabs for static SOM, dynamic trajectory, neighbor drift, and classifier results.
+  \item Add a country selector so the trajectory and neighbor drift analysis can be repeated for any country, not only Thailand.
+  \item Add a formal train-test robustness check for the SOM classifier with repeated stratified splits.
+  \item Add a short appendix explaining why CO2 is excluded from the dynamic SOM feature set.
+  \item Replace the geographic scatter with a true choropleth map if a dashboard is built.
+\end{enumerate}
+
+\section{Conclusion}
+
+The final project is no longer just a basic SOM demonstration. It is a compact analytical system for visualizing national development profiles. The static SOM provides an interpretable country similarity map, the dynamic SOM shows how countries move over a decade, and the SOM-based classifier demonstrates that the learned similarity landscape can also support a direct majority-vote classification task. The project remains technically simple enough to explain clearly, while adding enough temporal and supervised structure to feel substantially more complete than a basic prototype.
+
+\end{document}

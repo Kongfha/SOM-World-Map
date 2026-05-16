@@ -1,0 +1,101 @@
+target_country_code,target_country_name,year,rank,neighbor_country_code,neighbor_country_name,neighbor_region,neighbor_income_level,feature_distance,som_grid_distance,target_som_row,target_som_col,neighbor_som_row,neighbor_som_col
+THA,Thailand,2014,1,VNM,Viet Nam,East Asia & Pacific,Lower middle income,0.9458,5,6,6,9,8
+THA,Thailand,2014,2,CHN,China,East Asia & Pacific,Upper middle income,0.946,1,6,6,5,6
+THA,Thailand,2014,3,ECU,Ecuador,Latin America & Caribbean,Upper middle income,0.9689,1,6,6,5,6
+THA,Thailand,2014,4,PRY,Paraguay,Latin America & Caribbean,Upper middle income,1.0949,1,6,6,5,6
+THA,Thailand,2014,5,BTN,Bhutan,South Asia,Lower middle income,1.1053,2,6,6,8,6
+THA,Thailand,2014,6,GTM,Guatemala,Latin America & Caribbean,Upper middle income,1.1055,2,6,6,7,5
+THA,Thailand,2014,7,UZB,Uzbekistan,Europe & Central Asia,Lower middle income,1.1638,1,6,6,7,6
+THA,Thailand,2014,8,PHL,Philippines,East Asia & Pacific,Lower middle income,1.1979,2,6,6,7,5
+THA,Thailand,2014,9,TON,Tonga,East Asia & Pacific,Upper middle income,1.2316,4,6,6,9,7
+THA,Thailand,2014,10,IDN,Indonesia,East Asia & Pacific,Upper middle income,1.307,2,6,6,7,5
+THA,Thailand,2015,1,ECU,Ecuador,Latin America & Caribbean,Upper middle income,0.9436,1,6,6,5,6
+THA,Thailand,2015,2,CHN,China,East Asia & Pacific,Upper middle income,0.9461,1,6,6,5,6
+THA,Thailand,2015,3,VNM,Viet Nam,East Asia & Pacific,Lower middle income,0.9611,5,6,6,9,8
+THA,Thailand,2015,4,GTM,Guatemala,Latin America & Caribbean,Upper middle income,1.0079,1,6,6,7,6
+THA,Thailand,2015,5,BTN,Bhutan,South Asia,Lower middle income,1.0331,5,6,6,9,8
+THA,Thailand,2015,6,PRY,Paraguay,Latin America & Caribbean,Upper middle income,1.0695,1,6,6,5,6
+THA,Thailand,2015,7,UZB,Uzbekistan,Europe & Central Asia,Lower middle income,1.142,1,6,6,7,6
+THA,Thailand,2015,8,PHL,Philippines,East Asia & Pacific,Lower middle income,1.1805,1,6,6,7,6
+THA,Thailand,2015,9,TON,Tonga,East Asia & Pacific,Upper middle income,1.2611,4,6,6,9,7
+THA,Thailand,2015,10,MDV,Maldives,South Asia,Upper middle income,1.2824,7,6,6,8,11
+THA,Thailand,2016,1,CHN,China,East Asia & Pacific,Upper middle income,0.8763,1,6,6,5,6
+THA,Thailand,2016,2,VNM,Viet Nam,East Asia & Pacific,Lower middle income,0.9655,5,6,6,9,8
+THA,Thailand,2016,3,ECU,Ecuador,Latin America & Caribbean,Upper middle income,0.9769,1,6,6,5,6
+THA,Thailand,2016,4,GTM,Guatemala,Latin America & Caribbean,Upper middle income,1.0096,1,6,6,7,6
+THA,Thailand,2016,5,BTN,Bhutan,South Asia,Lower middle income,1.0149,5,6,6,9,8
+THA,Thailand,2016,6,ROU,Romania,Europe & Central Asia,High income,1.0765,7,6,6,8,11
+THA,Thailand,2016,7,PRY,Paraguay,Latin America & Caribbean,Upper middle income,1.1009,1,6,6,6,7
+THA,Thailand,2016,8,MDV,Maldives,South Asia,Upper middle income,1.1299,7,6,6,8,11
+THA,Thailand,2016,9,UZB,Uzbekistan,Europe & Central Asia,Lower middle income,1.1316,2,6,6,7,7
+THA,Thailand,2016,10,PHL,Philippines,East Asia & Pacific,Lower middle income,1.1722,1,6,6,7,6
+THA,Thailand,2017,1,ECU,Ecuador,Latin America & Caribbean,Upper middle income,0.8122,1,6,6,5,6
+THA,Thailand,2017,2,CHN,China,East Asia & Pacific,Upper middle income,0.8235,1,6,6,5,6
+THA,Thailand,2017,3,ROU,Romania,Europe & Central Asia,High income,0.9116,7,6,6,8,11
+THA,Thailand,2017,4,GTM,Guatemala,Latin America & Caribbean,Upper middle income,0.9942,0,6,6,6,6
+THA,Thailand,2017,5,VNM,Viet Nam,East Asia & Pacific,Lower middle income,1.0009,5,6,6,9,8
+THA,Thailand,2017,6,BTN,Bhutan,South Asia,Lower middle income,1.0417,5,6,6,9,8
+THA,Thailand,2017,7,MDV,Maldives,South Asia,Upper middle income,1.0756,7,6,6,8,11
+THA,Thailand,2017,8,TTO,Trinidad and Tobago,Latin America & Caribbean,High income,1.1643,6,6,6,7,11
+THA,Thailand,2017,9,PHL,Philippines,East Asia & Pacific,Lower middle income,1.1741,1,6,6,7,6
+THA,Thailand,2017,10,MUS,Mauritius,Sub-Saharan Africa,Upper middle income,1.1965,7,6,6,8,11
+THA,Thailand,2018,1,ECU,Ecuador,Latin America & Caribbean,Upper middle income,0.6084,2,6,7,5,6
+THA,Thailand,2018,2,CHN,China,East Asia & Pacific,Upper middle income,0.7777,5,6,7,7,11
+THA,Thailand,2018,3,ROU,Romania,Europe & Central Asia,High income,0.8792,5,6,7,7,11
+THA,Thailand,2018,4,GTM,Guatemala,Latin America & Caribbean,Upper middle income,1.0111,1,6,7,6,6
+THA,Thailand,2018,5,CUB,Cuba,Latin America & Caribbean,Upper middle income,1.0518,1,6,7,5,7
+THA,Thailand,2018,6,POL,Poland,Europe & Central Asia,High income,1.074,4,6,7,6,11
+THA,Thailand,2018,7,PAN,Panama,Latin America & Caribbean,High income,1.1081,4,6,7,6,11
+THA,Thailand,2018,8,TTO,Trinidad and Tobago,Latin America & Caribbean,High income,1.1146,5,6,7,7,11
+THA,Thailand,2018,9,JAM,Jamaica,Latin America & Caribbean,Upper middle income,1.1393,2,6,7,7,8
+THA,Thailand,2018,10,PRY,Paraguay,Latin America & Caribbean,Upper middle income,1.1428,1,6,7,6,8
+THA,Thailand,2019,1,ECU,Ecuador,Latin America & Caribbean,Upper middle income,0.6801,8,8,11,5,6
+THA,Thailand,2019,2,ROU,Romania,Europe & Central Asia,High income,0.7371,1,8,11,7,11
+THA,Thailand,2019,3,CHN,China,East Asia & Pacific,Upper middle income,0.7577,1,8,11,7,11
+THA,Thailand,2019,4,POL,Poland,Europe & Central Asia,High income,0.8476,2,8,11,6,11
+THA,Thailand,2019,5,TTO,Trinidad and Tobago,Latin America & Caribbean,High income,0.969,1,8,11,7,11
+THA,Thailand,2019,6,CUB,Cuba,Latin America & Caribbean,Upper middle income,0.9747,7,8,11,4,8
+THA,Thailand,2019,7,KAZ,Kazakhstan,Europe & Central Asia,Upper middle income,0.9962,2,8,11,7,10
+THA,Thailand,2019,8,JAM,Jamaica,Latin America & Caribbean,Upper middle income,1.0349,4,8,11,7,8
+THA,Thailand,2019,9,BGR,Bulgaria,Europe & Central Asia,High income,1.0435,6,8,11,5,8
+THA,Thailand,2019,10,AZE,Azerbaijan,Europe & Central Asia,Upper middle income,1.0604,3,8,11,7,9
+THA,Thailand,2020,1,POL,Poland,Europe & Central Asia,High income,0.724,2,7,10,6,11
+THA,Thailand,2020,2,CHN,China,East Asia & Pacific,Upper middle income,0.823,1,7,10,7,11
+THA,Thailand,2020,3,ROU,Romania,Europe & Central Asia,High income,0.9054,0,7,10,7,10
+THA,Thailand,2020,4,CUB,Cuba,Latin America & Caribbean,Upper middle income,0.9677,5,7,10,4,8
+THA,Thailand,2020,5,TTO,Trinidad and Tobago,Latin America & Caribbean,High income,0.9693,0,7,10,7,10
+THA,Thailand,2020,6,HUN,Hungary,Europe & Central Asia,High income,1.046,4,7,10,4,9
+THA,Thailand,2020,7,KAZ,Kazakhstan,Europe & Central Asia,Upper middle income,1.0577,2,7,10,6,9
+THA,Thailand,2020,8,MDV,Maldives,South Asia,Upper middle income,1.0648,2,7,10,8,11
+THA,Thailand,2020,9,MYS,Malaysia,East Asia & Pacific,Upper middle income,1.1079,3,7,10,5,9
+THA,Thailand,2020,10,CZE,Czechia,Europe & Central Asia,High income,1.1342,4,7,10,4,9
+THA,Thailand,2021,1,POL,Poland,Europe & Central Asia,High income,0.8138,1,7,10,6,10
+THA,Thailand,2021,2,CHN,China,East Asia & Pacific,Upper middle income,0.8683,2,7,10,6,11
+THA,Thailand,2021,3,ECU,Ecuador,Latin America & Caribbean,Upper middle income,1.0229,3,7,10,6,8
+THA,Thailand,2021,4,MDV,Maldives,South Asia,Upper middle income,1.0617,2,7,10,8,11
+THA,Thailand,2021,5,HUN,Hungary,Europe & Central Asia,High income,1.0904,4,7,10,4,9
+THA,Thailand,2021,6,ROU,Romania,Europe & Central Asia,High income,1.1221,0,7,10,7,10
+THA,Thailand,2021,7,MYS,Malaysia,East Asia & Pacific,Upper middle income,1.1747,3,7,10,5,9
+THA,Thailand,2021,8,AZE,Azerbaijan,Europe & Central Asia,Upper middle income,1.175,1,7,10,7,9
+THA,Thailand,2021,9,CZE,Czechia,Europe & Central Asia,High income,1.1823,5,7,10,3,9
+THA,Thailand,2021,10,TTO,Trinidad and Tobago,Latin America & Caribbean,High income,1.1892,0,7,10,7,10
+THA,Thailand,2022,1,JAM,Jamaica,Latin America & Caribbean,Upper middle income,0.7215,1,7,10,7,9
+THA,Thailand,2022,2,KAZ,Kazakhstan,Europe & Central Asia,Upper middle income,0.7937,2,7,10,6,9
+THA,Thailand,2022,3,POL,Poland,Europe & Central Asia,High income,0.8051,2,7,10,6,11
+THA,Thailand,2022,4,AZE,Azerbaijan,Europe & Central Asia,Upper middle income,0.8124,2,7,10,6,9
+THA,Thailand,2022,5,ECU,Ecuador,Latin America & Caribbean,Upper middle income,0.819,4,7,10,5,8
+THA,Thailand,2022,6,HUN,Hungary,Europe & Central Asia,High income,0.9447,4,7,10,4,9
+THA,Thailand,2022,7,BLR,Belarus,Europe & Central Asia,Upper middle income,0.969,3,7,10,5,9
+THA,Thailand,2022,8,MYS,Malaysia,East Asia & Pacific,Upper middle income,1.0146,4,7,10,4,9
+THA,Thailand,2022,9,BGR,Bulgaria,Europe & Central Asia,High income,1.0147,3,7,10,5,9
+THA,Thailand,2022,10,CHN,China,East Asia & Pacific,Upper middle income,1.0168,2,7,10,6,11
+THA,Thailand,2023,1,JAM,Jamaica,Latin America & Caribbean,Upper middle income,0.7431,1,7,10,7,9
+THA,Thailand,2023,2,ECU,Ecuador,Latin America & Caribbean,Upper middle income,0.7684,4,7,10,5,8
+THA,Thailand,2023,3,CHN,China,East Asia & Pacific,Upper middle income,0.8299,2,7,10,5,10
+THA,Thailand,2023,4,KAZ,Kazakhstan,Europe & Central Asia,Upper middle income,0.8487,1,7,10,6,10
+THA,Thailand,2023,5,AZE,Azerbaijan,Europe & Central Asia,Upper middle income,0.8696,2,7,10,6,9
+THA,Thailand,2023,6,POL,Poland,Europe & Central Asia,High income,0.8933,2,7,10,6,11
+THA,Thailand,2023,7,TTO,Trinidad and Tobago,Latin America & Caribbean,High income,0.9617,1,7,10,7,11
+THA,Thailand,2023,8,RUS,Russian Federation,Europe & Central Asia,High income,0.9705,3,7,10,5,9
+THA,Thailand,2023,9,BLR,Belarus,Europe & Central Asia,Upper middle income,0.9706,3,7,10,5,9
+THA,Thailand,2023,10,MYS,Malaysia,East Asia & Pacific,Upper middle income,0.9723,4,7,10,4,9

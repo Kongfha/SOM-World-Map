@@ -1,0 +1,253 @@
+{
+  "target": "income_level",
+  "excluded_targets": [
+    "Not classified"
+  ],
+  "classes": [
+    "Low income",
+    "Lower middle income",
+    "Upper middle income",
+    "High income"
+  ],
+  "features": [
+    "gdp_per_capita",
+    "life_expectancy",
+    "internet_users_pct",
+    "urban_population_pct",
+    "unemployment_pct",
+    "electricity_access_pct",
+    "co2_tons_per_capita_2018"
+  ],
+  "countries_total_after_filter": 169,
+  "train_countries": 154,
+  "test_countries": 15,
+  "som_grid": "4x1",
+  "som_nodes": 4,
+  "iterations": 6000,
+  "accuracy": 0.8,
+  "macro_f1": 0.7738,
+  "quantization_error_train": 1.4687,
+  "quantization_error_test": 1.6722,
+  "node_labels": [
+    {
+      "som_row": 0,
+      "som_col": 0,
+      "node_label": "High income",
+      "train_count": 37,
+      "train_Low income": 0,
+      "train_Lower middle income": 0,
+      "train_Upper middle income": 0,
+      "train_High income": 37,
+      "was_empty_in_train": false
+    },
+    {
+      "som_row": 1,
+      "som_col": 0,
+      "node_label": "Upper middle income",
+      "train_count": 46,
+      "train_Low income": 0,
+      "train_Lower middle income": 4,
+      "train_Upper middle income": 30,
+      "train_High income": 12,
+      "was_empty_in_train": false
+    },
+    {
+      "som_row": 2,
+      "som_col": 0,
+      "node_label": "Lower middle income",
+      "train_count": 36,
+      "train_Low income": 1,
+      "train_Lower middle income": 21,
+      "train_Upper middle income": 13,
+      "train_High income": 1,
+      "was_empty_in_train": false
+    },
+    {
+      "som_row": 3,
+      "som_col": 0,
+      "node_label": "Low income",
+      "train_count": 35,
+      "train_Low income": 18,
+      "train_Lower middle income": 17,
+      "train_Upper middle income": 0,
+      "train_High income": 0,
+      "was_empty_in_train": false
+    }
+  ],
+  "test_predictions": [
+    {
+      "country_code": "GNB",
+      "country_name": "Guinea-Bissau",
+      "income_level": "Low income",
+      "predicted_income_level": "Low income",
+      "correct": true,
+      "som_row": 3,
+      "som_col": 0
+    },
+    {
+      "country_code": "PER",
+      "country_name": "Peru",
+      "income_level": "Upper middle income",
+      "predicted_income_level": "Upper middle income",
+      "correct": true,
+      "som_row": 1,
+      "som_col": 0
+    },
+    {
+      "country_code": "PNG",
+      "country_name": "Papua New Guinea",
+      "income_level": "Lower middle income",
+      "predicted_income_level": "Low income",
+      "correct": false,
+      "som_row": 3,
+      "som_col": 0
+    },
+    {
+      "country_code": "MWI",
+      "country_name": "Malawi",
+      "income_level": "Low income",
+      "predicted_income_level": "Low income",
+      "correct": true,
+      "som_row": 3,
+      "som_col": 0
+    },
+    {
+      "country_code": "SLB",
+      "country_name": "Solomon Islands",
+      "income_level": "Lower middle income",
+      "predicted_income_level": "Low income",
+      "correct": false,
+      "som_row": 3,
+      "som_col": 0
+    },
+    {
+      "country_code": "ISR",
+      "country_name": "Israel",
+      "income_level": "High income",
+      "predicted_income_level": "High income",
+      "correct": true,
+      "som_row": 0,
+      "som_col": 0
+    },
+    {
+      "country_code": "DJI",
+      "country_name": "Djibouti",
+      "income_level": "Lower middle income",
+      "predicted_income_level": "Lower middle income",
+      "correct": true,
+      "som_row": 2,
+      "som_col": 0
+    },
+    {
+      "country_code": "SWE",
+      "country_name": "Sweden",
+      "income_level": "High income",
+      "predicted_income_level": "High income",
+      "correct": true,
+      "som_row": 0,
+      "som_col": 0
+    },
+    {
+      "country_code": "MUS",
+      "country_name": "Mauritius",
+      "income_level": "Upper middle income",
+      "predicted_income_level": "Lower middle income",
+      "correct": false,
+      "som_row": 2,
+      "som_col": 0
+    },
+    {
+      "country_code": "IRQ",
+      "country_name": "Iraq",
+      "income_level": "Upper middle income",
+      "predicted_income_level": "Upper middle income",
+      "correct": true,
+      "som_row": 1,
+      "som_col": 0
+    },
+    {
+      "country_code": "POL",
+      "country_name": "Poland",
+      "income_level": "High income",
+      "predicted_income_level": "High income",
+      "correct": true,
+      "som_row": 0,
+      "som_col": 0
+    },
+    {
+      "country_code": "NOR",
+      "country_name": "Norway",
+      "income_level": "High income",
+      "predicted_income_level": "High income",
+      "correct": true,
+      "som_row": 0,
+      "som_col": 0
+    },
+    {
+      "country_code": "CZE",
+      "country_name": "Czechia",
+      "income_level": "High income",
+      "predicted_income_level": "High income",
+      "correct": true,
+      "som_row": 0,
+      "som_col": 0
+    },
+    {
+      "country_code": "IRN",
+      "country_name": "Iran, Islamic Rep.",
+      "income_level": "Upper middle income",
+      "predicted_income_level": "Upper middle income",
+      "correct": true,
+      "som_row": 1,
+      "som_col": 0
+    },
+    {
+      "country_code": "VNM",
+      "country_name": "Viet Nam",
+      "income_level": "Lower middle income",
+      "predicted_income_level": "Lower middle income",
+      "correct": true,
+      "som_row": 2,
+      "som_col": 0
+    }
+  ],
+  "classification_report": {
+    "Low income": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "Lower middle income": {
+      "precision": 0.6666666666666666,
+      "recall": 0.5,
+      "f1-score": 0.5714285714285715,
+      "support": 4.0
+    },
+    "Upper middle income": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1-score": 0.8571428571428571,
+      "support": 4.0
+    },
+    "High income": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 5.0
+    },
+    "accuracy": 0.8,
+    "macro avg": {
+      "precision": 0.7916666666666666,
+      "recall": 0.8125,
+      "f1-score": 0.7738095238095238,
+      "support": 15.0
+    },
+    "weighted avg": {
+      "precision": 0.8444444444444444,
+      "recall": 0.8,
+      "f1-score": 0.8031746031746032,
+      "support": 15.0
+    }
+  }
+}

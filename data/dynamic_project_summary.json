@@ -1,0 +1,241 @@
+{
+  "year_range": "2014-2023",
+  "years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "countries_total": 217,
+  "country_years_total": 2170,
+  "country_years_complete_core_features": 1733,
+  "countries_with_all_years_complete": 158,
+  "features_used_for_dynamic_som": [
+    "gdp_per_capita",
+    "life_expectancy",
+    "internet_users_pct",
+    "urban_population_pct",
+    "unemployment_pct",
+    "electricity_access_pct"
+  ],
+  "som_grid": "10x12",
+  "macro_clusters": 6,
+  "quantization_error": 0.62,
+  "topographic_error": 0.033,
+  "target_country_code": "THA",
+  "target_years_available": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "time_shifted_target_year": 2023,
+  "top_neighbor_by_year": [
+    {
+      "year": 2014,
+      "neighbor_country_code": "VNM",
+      "neighbor_country_name": "Viet Nam",
+      "feature_distance": 0.9458,
+      "som_grid_distance": 5
+    },
+    {
+      "year": 2015,
+      "neighbor_country_code": "ECU",
+      "neighbor_country_name": "Ecuador",
+      "feature_distance": 0.9436,
+      "som_grid_distance": 1
+    },
+    {
+      "year": 2016,
+      "neighbor_country_code": "CHN",
+      "neighbor_country_name": "China",
+      "feature_distance": 0.8763,
+      "som_grid_distance": 1
+    },
+    {
+      "year": 2017,
+      "neighbor_country_code": "ECU",
+      "neighbor_country_name": "Ecuador",
+      "feature_distance": 0.8122,
+      "som_grid_distance": 1
+    },
+    {
+      "year": 2018,
+      "neighbor_country_code": "ECU",
+      "neighbor_country_name": "Ecuador",
+      "feature_distance": 0.6084,
+      "som_grid_distance": 2
+    },
+    {
+      "year": 2019,
+      "neighbor_country_code": "ECU",
+      "neighbor_country_name": "Ecuador",
+      "feature_distance": 0.6801,
+      "som_grid_distance": 8
+    },
+    {
+      "year": 2020,
+      "neighbor_country_code": "POL",
+      "neighbor_country_name": "Poland",
+      "feature_distance": 0.724,
+      "som_grid_distance": 2
+    },
+    {
+      "year": 2021,
+      "neighbor_country_code": "POL",
+      "neighbor_country_name": "Poland",
+      "feature_distance": 0.8138,
+      "som_grid_distance": 1
+    },
+    {
+      "year": 2022,
+      "neighbor_country_code": "JAM",
+      "neighbor_country_name": "Jamaica",
+      "feature_distance": 0.7215,
+      "som_grid_distance": 1
+    },
+    {
+      "year": 2023,
+      "neighbor_country_code": "JAM",
+      "neighbor_country_name": "Jamaica",
+      "feature_distance": 0.7431,
+      "som_grid_distance": 1
+    }
+  ],
+  "largest_complete_window_movers": [
+    {
+      "country_code": "LCA",
+      "country_name": "St. Lucia",
+      "total_feature_distance": 5.331,
+      "total_som_steps": 16,
+      "years_observed": 10,
+      "max_single_year_feature_step": 1.6366
+    },
+    {
+      "country_code": "KHM",
+      "country_name": "Cambodia",
+      "total_feature_distance": 4.794,
+      "total_som_steps": 10,
+      "years_observed": 10,
+      "max_single_year_feature_step": 1.1702
+    },
+    {
+      "country_code": "GHA",
+      "country_name": "Ghana",
+      "total_feature_distance": 4.2481,
+      "total_som_steps": 8,
+      "years_observed": 10,
+      "max_single_year_feature_step": 1.4078
+    },
+    {
+      "country_code": "SWZ",
+      "country_name": "Eswatini",
+      "total_feature_distance": 4.1254,
+      "total_som_steps": 3,
+      "years_observed": 10,
+      "max_single_year_feature_step": 0.8323
+    },
+    {
+      "country_code": "MNG",
+      "country_name": "Mongolia",
+      "total_feature_distance": 4.0765,
+      "total_som_steps": 14,
+      "years_observed": 10,
+      "max_single_year_feature_step": 0.8531
+    },
+    {
+      "country_code": "PAN",
+      "country_name": "Panama",
+      "total_feature_distance": 3.8472,
+      "total_som_steps": 34,
+      "years_observed": 10,
+      "max_single_year_feature_step": 1.4507
+    },
+    {
+      "country_code": "AFG",
+      "country_name": "Afghanistan",
+      "total_feature_distance": 3.8406,
+      "total_som_steps": 2,
+      "years_observed": 10,
+      "max_single_year_feature_step": 1.0337
+    },
+    {
+      "country_code": "NAM",
+      "country_name": "Namibia",
+      "total_feature_distance": 3.8268,
+      "total_som_steps": 2,
+      "years_observed": 10,
+      "max_single_year_feature_step": 0.5647
+    },
+    {
+      "country_code": "CRI",
+      "country_name": "Costa Rica",
+      "total_feature_distance": 3.8083,
+      "total_som_steps": 11,
+      "years_observed": 10,
+      "max_single_year_feature_step": 0.9505
+    },
+    {
+      "country_code": "LBY",
+      "country_name": "Libya",
+      "total_feature_distance": 3.7522,
+      "total_som_steps": 0,
+      "years_observed": 10,
+      "max_single_year_feature_step": 0.8379
+    }
+  ],
+  "largest_partial_window_movers": [
+    {
+      "country_code": "CAF",
+      "country_name": "Central African Republic",
+      "total_feature_distance": 12.2633,
+      "total_som_steps": 0,
+      "years_observed": 8,
+      "max_single_year_feature_step": 4.8377
+    },
+    {
+      "country_code": "VEN",
+      "country_name": "Venezuela, RB",
+      "total_feature_distance": 2.8009,
+      "total_som_steps": 6,
+      "years_observed": 8,
+      "max_single_year_feature_step": 0.9323
+    },
+    {
+      "country_code": "BWA",
+      "country_name": "Botswana",
+      "total_feature_distance": 2.5607,
+      "total_som_steps": 3,
+      "years_observed": 9,
+      "max_single_year_feature_step": 0.7035
+    },
+    {
+      "country_code": "PRI",
+      "country_name": "Puerto Rico (US)",
+      "total_feature_distance": 2.3043,
+      "total_som_steps": 3,
+      "years_observed": 8,
+      "max_single_year_feature_step": 0.5502
+    },
+    {
+      "country_code": "SOM",
+      "country_name": "Somalia, Fed. Rep.",
+      "total_feature_distance": 2.2889,
+      "total_som_steps": 0,
+      "years_observed": 8,
+      "max_single_year_feature_step": 0.6185
+    }
+  ]
+}

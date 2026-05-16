@@ -1,0 +1,5 @@
+som_row,som_col,node_label,train_count,train_Low income,train_Lower middle income,train_Upper middle income,train_High income,was_empty_in_train
+0,0,High income,37,0,0,0,37,False
+1,0,Upper middle income,46,0,4,30,12,False
+2,0,Lower middle income,36,1,21,13,1,False
+3,0,Low income,35,18,17,0,0,False

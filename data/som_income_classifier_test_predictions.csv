@@ -1,0 +1,16 @@
+country_code,country_name,region,income_level,predicted_income_level,correct,som_row,som_col,gdp_per_capita,life_expectancy,internet_users_pct,urban_population_pct,unemployment_pct,electricity_access_pct,co2_tons_per_capita_2018
+GNB,Guinea-Bissau,Sub-Saharan Africa,Low income,Low income,True,3,0,1007.74151728028,64.254,29.77739906,46.113204421822,2.647,40.5,0.1612762255952653
+PER,Peru,Latin America & Caribbean,Upper middle income,Upper middle income,True,1,0,8452.37167056621,77.941,81.95705992,85.1912729600355,5.199,96.2,1.70169627894075
+PNG,Papua New Guinea,East Asia & Pacific,Lower middle income,Low income,False,3,0,3006.70564478923,66.256,18.81159973,15.4061816403333,2.625,20.5,0.7940805446753866
+MWI,Malawi,Sub-Saharan Africa,Low income,Low income,True,3,0,522.570393642547,67.561,18.96159935,17.268503531213,5.051,15.6,0.0847362444065308
+SLB,Solomon Islands,East Asia & Pacific,Lower middle income,Low income,False,3,0,1933.55538435227,70.694,29.04070091,30.6617188562194,1.444,81.3,0.5217874463581351
+ISR,Israel,"Middle East, North Africa, Afghanistan & Pakistan",High income,High income,True,0,0,54176.6844383302,83.1975609756098,88.18242225,91.536188843818,3.595,100.0,6.97640383662809
+DJI,Djibouti,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,Lower middle income,True,2,0,3552.72335079222,66.202,65.29889679,72.9052635052978,26.007,65.2,0.4571398717396131
+SWE,Sweden,Europe & Central Asia,High income,High income,True,0,0,57117.4877440616,84.0634146341463,95.52930428,88.8559748346228,8.4,100.0,3.538009126884211
+MUS,Mauritius,Sub-Saharan Africa,Upper middle income,Lower middle income,False,2,0,11990.7798944837,73.7890243902439,73.30793533,39.0162147027917,5.548,100.0,3.2633336414931686
+IRQ,Iraq,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,Upper middle income,True,1,0,6073.61032342708,72.424,81.47450256,69.8861494108913,15.293,100.0,4.67247198255266
+POL,Poland,Europe & Central Asia,High income,High income,True,0,0,25103.565661423,78.409756097561,88.58496367,59.9705468695101,2.807,100.0,8.23547225459022
+NOR,Norway,Europe & Central Asia,High income,High income,True,0,0,86785.4334489176,83.1609756097561,99.0,83.3293737928469,4.0,100.0,7.031361188693496
+CZE,Czechia,Europe & Central Asia,High income,High income,True,0,0,31823.3078290564,79.9780487804878,87.68776014,72.7947984592185,2.6,100.0,9.640704998190015
+IRN,"Iran, Islamic Rep.","Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,Upper middle income,True,1,0,5190.16959024821,77.854,85.3404007,77.0201263427734,8.146,100.0,7.307299456729126
+VNM,Viet Nam,East Asia & Pacific,Lower middle income,Lower middle income,True,2,0,4717.29028732449,74.736,84.15,38.4900703430176,1.602,99.8,2.679417950119745

@@ -18,7 +18,9 @@ SOM-World-Map/
 ├── requirements.txt
 ├── .gitignore
 ├── src/
-│   └── som_world_map_pipeline.py
+│   ├── som_world_map_pipeline.py
+│   ├── dynamic_som_pipeline.py
+│   └── som_income_classifier.py
 ├── notebooks/
 │   └── som-world-map.ipynb
 ├── data/
@@ -78,6 +80,22 @@ Force refresh from World Bank API:
 python src/som_world_map_pipeline.py --force-refresh
 ```
 
+Build the dynamic 10-year country-year SOM:
+
+```bash
+python src/dynamic_som_pipeline.py
+```
+
+The dynamic pipeline uses 2014-2023 country-year rows and trains the SOM on six high-coverage features: GDP per capita, life expectancy, internet users, urban population, unemployment, and electricity access. CO2 per capita is still pulled into the full country-year table where the World Bank endpoint has data, but it is not used as a 10-year SOM feature because recent years are missing.
+
+Run the SOM majority-vote income classifier:
+
+```bash
+python src/som_income_classifier.py
+```
+
+This add-on keeps the classification method SOM-based: it trains a 4-node SOM on the static country snapshot, labels each SOM node by the majority `income_level` in the train set, then classifies 15 held-out countries by the label of their closest SOM node.
+
 Open the notebook:
 
 ```bash
@@ -116,6 +134,26 @@ Countries most similar to Thailand by scaled feature distance:
 - Macro clusters: `figures/som_macro_clusters.png`
 - Thailand neighbors: `data/thailand_similar_countries.csv`
 - Presentation deck: `slides/som-world-map-country-similarity.pptx`
+
+Dynamic time-series outputs:
+
+- Full country-year table: `data/world_bank_country_year_indicators_full.csv`
+- Dynamic SOM input: `data/country_year_features.csv`
+- Dynamic SOM positions: `data/country_year_som_results.csv`
+- Thailand neighbor drift: `data/neighbor_drift_THA.csv`
+- Movement scores: `data/movement_scores.csv`
+- Time-shifted similarity: `data/time_shifted_similarity_THA_2023.csv`
+- Dynamic summary: `data/dynamic_project_summary.json`
+- Dynamic SOM snapshots: `figures/dynamic_som_year_snapshots.png`
+- Thailand trajectory: `figures/dynamic_som_trajectory_THA.png`
+
+SOM classifier outputs:
+
+- Test predictions: `data/som_income_classifier_test_predictions.csv`
+- Node labels: `data/som_income_classifier_node_labels.csv`
+- Metrics: `data/som_income_classifier_metrics.json`
+- Classifier map: `figures/som_income_classifier_map.png`
+- Confusion matrix: `figures/som_income_classifier_confusion_matrix.png`
 
 ## Why SOM Is Useful Here
 

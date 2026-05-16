@@ -1,0 +1,7 @@
+macro_cluster,country_years,unique_countries,avg_gdp_per_capita,avg_life_expectancy,avg_internet_users_pct,avg_urban_population_pct,avg_unemployment_pct,avg_electricity_access_pct,example_country_codes
+0,506,61,41505.88,80.49,86.96,83.21,6.25,99.98,"ARG, AUS, AUT, BHS, BHR, BEL, BRA, BRN, BGR, CAN"
+1,277,46,2869.14,67.96,34.96,45.4,5.36,86.36,"AFG, BGD, BLZ, BTN, BOL, KHM, CMR, COM, CIV, EGY"
+2,106,16,2710.51,62.65,33.59,51.84,18.86,55.02,"AGO, BWA, COG, DJI, SWZ, HTI, LSO, MRT, NAM, RWA"
+3,264,39,998.52,61.12,14.43,32.39,3.84,33.51,"AFG, BGD, BEN, BFA, BDI, KHM, CMR, CAF, TCD, COM"
+4,172,29,7479.95,73.77,65.42,63.84,17.9,96.21,"ALB, DZA, ARM, BRB, BIH, BWA, CPV, COL, HRV, EGY"
+5,408,65,8420.96,73.94,68.85,63.1,6.08,98.67,"DZA, AZE, BRB, BLR, BLZ, BTN, BOL, BRA, BGR, CPV"
